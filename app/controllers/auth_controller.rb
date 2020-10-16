@@ -11,6 +11,9 @@ class AuthController < ApplicationController
     end
   end
 
+  def destroy
+  end
+
   private
 
   def user_login_params
