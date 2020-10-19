@@ -18,6 +18,10 @@ class UsersController < ApplicationController
     end
   end
 
+  def job_leads
+    render json: current_user.job_leads, status: :accepted
+  end
+
   private
 
   def user_params
