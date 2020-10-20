@@ -5,5 +5,5 @@ class JobLead < ApplicationRecord
   has_many :notes
   accepts_nested_attributes_for :checklist
   accepts_nested_attributes_for :contact
-  accepts_nested_attributes_for :notes, :allow_destroy
+  accepts_nested_attributes_for :notes
 end
