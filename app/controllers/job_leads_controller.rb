@@ -31,6 +31,6 @@ class JobLeadsController < ApplicationController
   private
 
   def job_leads_params
-    params.require(:job_leads).permit(:company, :user_id, :title, :link, :date, :contact_method, :referral, checklist_attributes: {}, contact_attributes: {}, notes_attributes: [:content, :id, :job_lead_id, :_destroy])
+    params.require(:job_leads).permit(:company, :user_id, :title, :link, :date, :contact_method, :referral, checklist_attributes: {}, contact_attributes: {}, notes_attributes: [:content, :id, :job_lead_id, :created_at, :updated_at, :_destroy])
   end
 end
