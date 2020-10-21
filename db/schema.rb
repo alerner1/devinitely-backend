@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_10_20_211004) do
+ActiveRecord::Schema.define(version: 2020_10_21_153841) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -62,6 +62,9 @@ ActiveRecord::Schema.define(version: 2020_10_20_211004) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.string "password_digest"
+    t.integer "resumes", default: 0
+    t.integer "cover_letters", default: 0
+    t.integer "interviews", default: 0
   end
 
   add_foreign_key "checklists", "job_leads"
