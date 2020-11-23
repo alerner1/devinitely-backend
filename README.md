@@ -1,24 +1,21 @@
-# README
+***Devinitely!***
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**Overview**
 
-Things you may want to cover:
+*Devinitely!* is a streamlined job lead tracking system written in Ruby on Rails and JavaScript/React.js. This repo contains the back end code; the front end is [here](https://github.com/alerner1/devinitely-client).
 
-* Ruby version
+**Back End**
 
-* System dependencies
+The back end for *Devinitely!* is written in Ruby on Rails.
 
-* Configuration
+**Demo**
 
-* Database creation
+A demo for this app can be found [here](https://www.loom.com/share/df84ff5844c84c04ba53c9b3cf086b08).
 
-* Database initialization
+**Try It Live**
 
-* How to run the test suite
+[Try out the app](https://devinitely.herokuapp.com/) for yourself to turbocharge your job search.
 
-* Services (job queues, cache servers, search engines, etc.)
+**Credit**
 
-* Deployment instructions
-
-* ...
+This app was written in collaboration with Jim Ferdous.
